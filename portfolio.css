@@ -70,7 +70,7 @@ a{
     user-select: none;
     font-size: 7em;
     color: rgb(231,231,231);
-    bottom: -18%;
+    bottom: -20.3%;
     left: -1%;
     font-weight: bold;
     transition: all 3s;
@@ -105,15 +105,19 @@ a{
 .absolute{
     position: absolute;
 }
-.user-img{
+.user-img {
     padding: 2.5rem;
     filter: grayscale(1);
     transition: all 1s;
     animation: scaleImage 5s linear infinite;
 }
-.user-img img{
+
+.user-img img {
     z-index: -9;
+    width: 250px;  /* Adjust width as needed */
+    height: auto;  /* Keeps aspect ratio */
 }
+
 @keyframes scaleImage {
     0%{
         filter: grayscale(0);
@@ -380,7 +384,7 @@ a{
     font-size: 15em;
     font-style: bold;
     color: rgb(231,231,231);
-    bottom: -34.5%;
+    bottom: -223;
     right: -6%;
     user-select: none;
 }
@@ -493,7 +497,7 @@ footer{
 .footer-faded-text{
     position: absolute;
     left:0;
-    bottom: 0;
+    bottom: -20;
     color: #535c87;
     user-select: none;
     font-size: 5em;
